@@ -1,0 +1,67 @@
+/* stili generali */
+img {
+    width: 100%;
+}
+
+/* stili header */
+header {
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    z-index: 500;
+    background-color: #fff;
+}
+
+.width_img {
+    min-width: 60px;
+    width: 15%;
+}
+
+.width_logo_small {
+    max-width: 80px;
+}
+
+.width_svg {
+    max-width: 150px;
+    width: 100%;
+    padding: 0 5px;
+}
+
+.search_nav_up {
+    width: 70%;
+    background-color: #e5e5e5;
+}
+
+.avvisi {
+    width: 15%;
+}
+
+.avvisi i:last-child {
+    color: #ff8f00;
+}
+
+/* stili contenuto centrale */
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav_left_1 {
+    width: 70px;
+}
+
+.sfondo_left {
+    padding-top: 100px;
+    height: 100%;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+}
+
+.nav_left_2 {
+    width: 150px;
+}
+
+.color_white {
+    color: #fff;
+}

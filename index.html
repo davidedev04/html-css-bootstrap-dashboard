@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -18,6 +19,59 @@
 </head>
 
 <body>
+
+    <header class="d-flex align-items-center">
+        <div class="width_img">
+            <img src="img/mobile-logo.png" alt="logosmall" class="d-block d-lg-none width_logo_small p-1">
+            <img src="img/logo.svg" alt="logobig" class="d-none d-lg-block width_svg">
+        </div>
+        <div class="search_nav_up rounded px-2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Prova a cercare: Lezioni di Laravel"
+                class="search_nav_up border-0 rounded-end p-2">
+        </div>
+        <div class="avvisi d-flex justify-content-end">
+            <i class="fa-solid fa-list-ul d-none d-lg-block m-2"></i>
+            <i class="fa-solid fa-circle-question d-none d-lg-block m-2"></i>
+            <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block m-2"></i>
+            <i class="fa-solid fa-bell m-2"></i>
+        </div>
+    </header>
+
+    <main>
+        <section
+            class="nav_left_1 sfondo_left d-flex d-lg-none color_white flex-column align-items-center justify-content-between">
+            <div class="d-flex flex-column">
+                <i class="fa-solid fa-house pb-3"></i>
+                <i class="fa-solid fa-bars-staggered pb-3"></i>
+                <i class="fa-solid fa-signal"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-gear pb-3"></i>
+            </div>
+        </section>
+        <section
+            class="nav_left_2 sfondo_left d-none d-lg-flex flex-column align-items-center color_white justify-content-between">
+            <div class="d-flex flex-column align-items-center">
+                <div class="pb-3">
+                    <i class="fa-solid fa-house pe-2"></i>
+                    <span>Home</span>
+                </div>
+                <div class="pb-3">
+                    <i class="fa-solid fa-bars-staggered pe-2"></i>
+                    <span>Stats</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-signal pe-2"></i>
+                    <span>Signals</span>
+                </div>
+            </div>
+            <div class="pb-3">
+                <i class="fa-solid fa-gear pe-2"></i>
+                <span>Admin</span>
+            </div>
+        </section>
+    </main>
 
 </body>
 
