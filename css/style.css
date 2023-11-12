@@ -22,7 +22,7 @@ header {
 }
 
 .width_svg {
-    max-width: 150px;
+    max-width: 130px;
     width: 100%;
     padding: 0 5px;
 }
@@ -60,7 +60,7 @@ main {
 }
 
 .nav_left_2 {
-    width: 150px;
+    width: 130px;
 }
 
 .color_white {
@@ -87,6 +87,10 @@ main {
     height: 35px;
 }
 
+.size_scritte{
+    font-size: 15px;
+}
+
 
 
 
@@ -95,6 +99,6 @@ main {
 
 @media all and (min-width: 992px) {
     .padding_desktop {
-        padding-left: 150px;
+        padding-left: 130px;
     }
 }
