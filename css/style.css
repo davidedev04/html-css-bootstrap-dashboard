@@ -67,12 +67,12 @@ main {
     color: #fff;
 }
 
-.hover_button{
+.hover_button {
     background-color: transparent;
     transition: background-color 0.1s linear 0s;
 }
 
-.hover_button:hover{
+.hover_button:hover {
     cursor: pointer;
     background-color: #ffffff44;
 }
@@ -92,20 +92,49 @@ main {
     background-color: #1b72e8;
 }
 
-.button_plus{
+.button_plus {
     width: 35px;
     height: 35px;
 }
 
-.size_scritte{
+.size_scritte {
     font-size: 15px;
+}
+
+.img_grandezza {
+    width: 25px;
+}
+
+.check_button_done {
+    background-color: #198654;
+}
+
+.check_button_process{
+    background-color: #ffc008;
+}
+
+.check_button_failed{
+    background-color: #db3242;
+}
+
+.border_bottom_row{
+    border-bottom: 1px solid #edeff1;
+}
+
+.hover_classi:hover{
+    background-color: #0000001a;
+    cursor: pointer;
 }
 
 
 
 
 
-
+@media all and (max-width: 420px) {
+    .classe_grandezza {
+        font-size: 12px;
+    }
+}
 
 @media all and (min-width: 992px) {
     .padding_desktop {
