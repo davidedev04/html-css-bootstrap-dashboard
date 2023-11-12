@@ -40,7 +40,7 @@ header {
     color: #ff8f00;
 }
 
-/* stili contenuto centrale */
+/* stili nav left */
 
 main {
     height: 100vh;
@@ -67,7 +67,17 @@ main {
     color: #fff;
 }
 
-/* stili contenuto cenrtale */
+.hover_button{
+    background-color: transparent;
+    transition: background-color 0.1s linear 0s;
+}
+
+.hover_button:hover{
+    cursor: pointer;
+    background-color: #ffffff44;
+}
+
+/* stili contenuto centrale */
 
 .content_middle {
     height: 100%;
