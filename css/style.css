@@ -87,6 +87,10 @@ main {
     padding-left: 70px;
 }
 
+.width_parte_centrale{
+    width: 100%;
+}
+
 .nav_top {
     width: 100%;
     background-color: #1b72e8;
@@ -139,5 +143,6 @@ main {
 @media all and (min-width: 992px) {
     .padding_desktop {
         padding-left: 130px;
+        
     }
 }
